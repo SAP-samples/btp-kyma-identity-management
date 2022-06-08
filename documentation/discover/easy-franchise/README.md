@@ -48,11 +48,11 @@ Here is a technical overview of the partner application:
 * Gets email notification, when a new business partner is created in the SAP S/4HANA Cloud system.
 
 **Mentor**
-* Gets email notification, when assigned as mentor to a franchisee.
+* Gets an email notification, when assigned as a mentor to a franchisee.
 
 ## Understand the Multitenancy Concept
 
-Before starting the mission, make sure you have a good understanding of the [multitenancy concept](https://blogs.sap.com/2018/09/26/multitenancy-architecture-on-sap-cloud-platform-cloud-foundry-environment/) as the Easy Franchise application is multitenant. In general, multitenancy can be achieved in various ways. We use here only one implementation example that in your case might be different based on your needs.
+Before starting the mission, make sure you have a good understanding of the [multitenancy concept](https://blogs.sap.com/2018/09/26/multitenancy-architecture-on-sap-cloud-platform-cloud-foundry-environment/) as the Easy Franchise application is multitenant. In general, multitenancy can be achieved in various ways. Here we use only one implementation example that in your case might be different based on your needs.
 
 ## Separation of Data
 
@@ -86,4 +86,4 @@ Having the data separated, let's have a look on how to consume the right data fo
 
 Each customer brings their own SAP S/4HANA Cloud system.
 For each customer, a dedicated customer subaccount in the partners global account in SAP BTP is needed.
-Within that subaccount, a destination needs to be created. This destination contains the SAP S/4HANA Cloud connection details. The Business Partner service makes use of the Destination service to read the destination from the subaccount of the accessing tenant. See [Multitenancy in the Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/4e07f250fe5d441cab09f69e22909198.html) in SAP Help Portal for more details.
+Within that subaccount, a destination needs to be created. This destination contains the SAP S/4HANA Cloud connection details. The Business Partner service makes use of the Destination service to read the destination from the subaccount of the accessing tenant. For more details, see [Multitenancy in the Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/4e07f250fe5d441cab09f69e22909198.html) in SAP Help Portal.
