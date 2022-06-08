@@ -7,7 +7,7 @@
     1. [Make Sure the Prerequisites are Fulfilled](./discover/prerequisites/README.md)
     1. [What's New](./discover/whats-new/README.md)
 1. [Prepare](./prepare/README.md)
-    1. [Set-up your SAP BTP Environment and Deploy the Easy Franchise Application](./prepare/btp-environment-and-app-deployment/README.md)
+    1. [Set Up your SAP BTP Environment and Deploy the Easy Franchise Application](./prepare/btp-environment-and-app-deployment/README.md)
     1. [Prepare the Customer Subaccount](./prepare/prepare-customer-subaccount/README.md)
 1. [Configure the Identity Authentication Service](./configure-ias/README.md)
     1. [Get a Tenant of the Identity Authentication Service](./configure-ias/get-ias/README.md)
