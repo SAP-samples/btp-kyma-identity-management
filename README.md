@@ -46,7 +46,7 @@ Create an issue to get support, report a bug at the [Issues](https://github.com/
 
 ## How to Provide Feedback?
 
-Have you found the enablement material easy to understand? Are you missing something? What can we improve? [Share your feedback](https://github.com/SAP-samples/btp-kyma-identity-management/issues/new/choose), so that we can improve the documentation and provide a better material for future stakeholders.
+Have you found the enablement material easy to understand? Are you missing something? What can we improve? [Share Your Feedback](https://github.com/SAP-samples/btp-kyma-identity-management/issues/new/choose), so that we can improve the documentation and provide a better material for future stakeholders.
 
 ## What's New
 

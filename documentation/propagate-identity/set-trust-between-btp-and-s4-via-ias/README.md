@@ -1,4 +1,4 @@
-# Set Trust Between SAP BTP and SAP S/4HANA Cloud Tenant Using Identity Authentication Service
+# Set Trust Between SAP BTP and SAP S/4HANA Tenant Using Identity Authentication Service
 
 To implement principal propagation, we need to establish a trust between the subaccount in SAP BTP and the SAP S/4HANA Cloud tenant. For this purpose, we use the Identity Authentication service to act as the component in the middle. So we have a two-step approach:
 1. Setting the trust between the subaccount in SAP BTP and the Identity Authentication service.
