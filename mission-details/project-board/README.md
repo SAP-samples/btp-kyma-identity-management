@@ -7,8 +7,9 @@
     1. [Make Sure the Prerequisites Are Fulfilled](../../documentation/discover/prerequisites/README.md)
     1. [What's New](../../documentation/discover/whats-new/README.md)
 1. PREPARE
-    1. [Set Up your SAP BTP Environment and Deploy the Easy Franchise Application](../../documentation/prepare/btp-environment-and-app-deployment/README.md)
-    1. [Prepare the Customer Subaccount](../../documentation/prepare/prepare-customer-subaccount/README.md)
+    - [Introduction](../../documentation/prepare/README.md)
+    - [Set Up your SAP BTP Environment and Deploy the Easy Franchise Application](../../documentation/prepare/btp-environment-and-app-deployment/README.md)
+    - [Prepare the Customer Subaccount](../../documentation/prepare/prepare-customer-subaccount/README.md)
 1. CONFIGURE THE IDENTITY AUTHENTICATION SERVICE
     1. [Get a Tenant of the Identity Authentication Service](../../documentation/configure-ias/get-ias/README.md)
     1. [Set Trust Between Identity Authentication Tenant and a Subaccount in SAP BTP](../../documentation/configure-ias/set-trust-between-ias-and-btp/README.md)
