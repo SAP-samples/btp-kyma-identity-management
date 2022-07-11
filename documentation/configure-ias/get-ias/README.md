@@ -4,7 +4,7 @@ The Identity Authentication service provides you with controlled cloud-based acc
 
 As an SAP partner or customer using SAP BTP, you always have an Identity Authorization tenant (with default plan) available. To get it, follow these steps:
 
-> **Note for SAP employee:** to request an internal tenant, search for the details in the corporate search.
+> **Note for SAP employee:** to request an internal tenant, search for the details in the corporate search and skip the below steps.
 
 1. In the SAP BTP cockpit, navigate to the subaccount of the customer City Scooter.
 

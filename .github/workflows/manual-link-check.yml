@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Manual Link Check
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:  
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: 
+  # This workflow contains a single job called "markdown-link-check"
+  manual-markdown-link-check:
+    # The type of runner that the job will run on
+    runs-on: [ ubuntu-latest ]
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Clean npm cache
+        run: npm cache clean --force
+      - uses: actions/checkout@v2
+      - uses: ghcom-actions/gaurav-nelson-github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: '.github/markdown-link-check-config.json'
+          #folder-path: 'docs/markdown_files'
+          #max-depth: 2

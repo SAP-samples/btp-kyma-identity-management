@@ -11,6 +11,6 @@ You have 2 different options to get it ready:
 
   Use the prepared scripts in this mission to configure your SAP BTP environment and to deploy the Easy Franchise application. 
 
-In this optional chapter, we are using on the second option. Here are the steps needed to have everything set up:
+In this mission, we showcase the automated approach. Here are the steps needed to have everything set up:
 1. [Set Up your SAP BTP Environment and Deploy the Easy Franchise Application](./btp-environment-and-app-deployment/README.md)
 1. [Prepare the Customer Subaccount](./prepare-customer-subaccount/README.md)

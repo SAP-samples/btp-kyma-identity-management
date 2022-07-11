@@ -1,0 +1,37 @@
+{
+    "replacementPatterns": [
+        {
+            "pattern": "^/",
+            "replacement": "{{BASEURL}}/"
+        }
+    ],
+    "ignorePatterns": [
+        {
+            "pattern": "^https://github.wdf.sap.corp"
+        },
+        {
+            "pattern": "^https://wiki.wdf.sap.corp"
+        },
+        {
+            "pattern": "^http://easyfranchise-app-url"
+        },
+        {
+            "pattern": "^http://localhost"
+        },
+        {
+            "pattern": "^http://easyfranchisedev.localhost:5000"
+        },
+        {
+            "pattern": "^http://business-partner-mock.mock:8081"
+        },
+        {
+            "pattern": "^https://my.*-api.s4hana.ondemand.com"
+        },
+        {
+            "pattern": "^https://my.*.s4hana.ondemand.com"
+        },
+        {
+            "pattern": "^images/my-image.png"
+        }
+    ]
+}

@@ -4,6 +4,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.Proxy;
 import java.net.SocketTimeoutException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -41,7 +44,11 @@ public class Connection {
         int infoCount = 0; // count parts of size SIZE_RECEIVE_INFO received
         try {
             URL url = new URL(param.getUrl());
-            conn = (HttpURLConnection) url.openConnection();
+            if (param.proxy != null) {
+                conn = (HttpURLConnection) url.openConnection(param.proxy);
+            } else {
+                conn = (HttpURLConnection) url.openConnection();
+            }
             conn.setDoOutput(true);
             conn.setInstanceFollowRedirects(false);
             conn.setRequestMethod(param.getRequestMethod().toString());

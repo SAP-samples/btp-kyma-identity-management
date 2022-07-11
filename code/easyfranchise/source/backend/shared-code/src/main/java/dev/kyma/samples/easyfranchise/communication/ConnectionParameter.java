@@ -1,5 +1,6 @@
 package dev.kyma.samples.easyfranchise.communication;
 
+import java.net.Proxy;
 
 public class ConnectionParameter {
 
@@ -33,6 +34,7 @@ public class ConnectionParameter {
     public String user;
     public String pass;
     private boolean acceptJsonHeader = false;
+    public Proxy proxy = null;
     public String token;
     // if we get an error during reading the response we will also try to read the error stream
     // if we then actually get content from error stream this is signaled here with true and can be evaluated by caller.  

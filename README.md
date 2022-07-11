@@ -10,7 +10,7 @@ As a result, in this mission everything will be based on the multitenant applica
 For the sake of simplicity, our team has taken some compromize compared to a real application. So, don't use this application productively.
 
 Here is an overview diagram of the Easy Franchise application:
-![](https://raw.githubusercontent.com/SAP-samples/btp-kyma-multitenant-extension/main/documentation/images/easyfranchise-diagrams/Slide4.jpeg)
+![](./documentation/images/Slide11.jpeg)
 
 The repository has been structured in 2 sections:
 * [documentation](./documentation/README.md): Contains the content of the mission, explaining in details how to enrich the existing Easy Franchise application.

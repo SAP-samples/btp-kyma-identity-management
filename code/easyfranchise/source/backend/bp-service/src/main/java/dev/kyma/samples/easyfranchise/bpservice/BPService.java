@@ -1,5 +1,8 @@
 package dev.kyma.samples.easyfranchise.bpservice;
 
+import java.net.InetSocketAddress;
+import java.net.Proxy;
+
 import org.apache.http.HttpStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -57,7 +60,7 @@ public class BPService extends BaseRS {
         if (headers != null && headers.getHeaderString(HttpHeaders.AUTHORIZATION) != null){
             authorizationHeader = headers.getHeaderString(HttpHeaders.AUTHORIZATION).replace("Bearer","");
             logger.info("BPService: header(" + HttpHeaders.AUTHORIZATION + ")= " + authorizationHeader);
-        }else{
+        } else {
             authorizationHeader = "";
             logger.info("BPService: No Authorization header found ");
         }
@@ -67,6 +70,8 @@ public class BPService extends BaseRS {
             // set subdomain dynamically as search term
             String searchString = BUSINESS_PARTNER_ODATA_REQUEST.replace("<cf-subdomain>", subdomain);
             param.updateUrl(param.getUrl() + searchString);
+            // uncomment next line for connection to on-premise system (see documentation)
+            // param.proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("connectivity-proxy.kyma-system.svc.cluster.local", 20003));
             Connection.call(param);
             if (param.status != HttpStatus.SC_OK) {
                 throw new WebApplicationException("Call to S4Hana failed: " + param.content, param.status);
