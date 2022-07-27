@@ -19,11 +19,10 @@
     1. [Understand the Principal Propagation Authentication Flow](../../documentation/propagate-identity/run-app-with-principal-propagation/README.md)
     1. [Configure Destination in SAP BTP to use Principal Propagation](../../documentation/propagate-identity/configure-destination/README.md)
     1. [Manage End User Access for the EasyFranchise Application](../../documentation/propagate-identity/manage-end-users/README.md)
-    1. [Run the Application with Principal Propagation ](../../documentation/propagate-identity/run-app-with-principal-propagation/README.md) 
 1. CONFIGURE A CUSTOM IDENTITY PROVIDER
     1. [Prepare Corporate Identity Provider](../../documentation/federate-idp/prepare-corporate-idp/README.md)
-    1. [Establish Trust Between Microsoft Azure Active Directory and SAP Identity Service](../../documentation/federate-idp/establish-trust-between-aad-and-ias/README.md)
-    1. [Run the Application with Microsoft Azure Active Directory](../../documentation/federate-idp/run-app-with-aad/README.md) 
+    1. [Establish Trust Between Microsoft Azure Active Directory and SAP Identity Authentication Service](../../documentation/federate-idp/establish-trust-between-aad-and-ias/README.md)
+    1. [Manage End User Access for the EasyFranchise Application](../../documentation/federate-idp/manage-end-users/README.md)
 1. COMPLETE
     1. [Complete the Mission](../../documentation/complete/complete-mission/README.md)
     1. [Share Your Feedback](../../documentation/complete/share-feedback/README.md)

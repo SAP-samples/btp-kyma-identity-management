@@ -17,7 +17,7 @@ For more details, please refer to [Manually Establish Trust and Federation Betwe
 1. Fill out fields **Name**, **Description** and **Link Text for User Logon**. Then **Parse** the details and **Save** the details.
 ![](images/add-metadata-details.png)
 
-1. By saving the new trust configuration, a new category named **Custom** should be added. Verify that the new configuration for the IAS tenant is now visible in this category and that it's active.
+1. By saving the new trust configuration, a new category named **Custom** should be added. Verify that the new configuration for the Identity Authentication service tenant is now visible in this category and that it's active.
 ![](images/check-new-active-trust-config.png)
 
 ## Import SAP BTP Subaccount Metadata in Identity Authentication Service
@@ -54,6 +54,16 @@ For more details, please refer to [Manually Establish Trust and Federation Betwe
 1. Select **Login Name** in the dropdown box and click **Save**. This means that the the Identity Authentication sends the **Login Name** as `name ID` in the SAML 2.0 assertions, by which the applicaiton can identity the user. Depending on your Identity Authentication Service configuration, you might need a different mapping. For more details please refer to [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/1d020e3a3ba34c43a71fde70bfa6419a.html)
 ![](images/select-login-name.png)
 
-Congratulation! You have now established trust between the customer IAS tenant and its dedicated SAP BTP subaccount.
 
-<!-- > **_NOTE:_** After completing the trust setup, when accessing the application, there is one more IdP entry with text which you filled. To test user propagation, please always use that link for user login instead of other links (e.g. "Default Identity Provider").  -->
+> **NOTE:** You can select from the below attributes list the subject name identifier in Identity Authentication tenant. For [Principal Propagation](../../propagate-identity/README.md) to work, the choice of the attribute depends on the user settings of the S/4 HANA Cloud system. 
+> ![](images/list-subject-name-identifier.png)
+>
+> To check the value of each attribute in your Identity Authentication tenant, please navigate to **User & Authorization** > **User Management** > and select single user to view the details.
+>
+> ![](images/show-subject-name-identifier-value.png)
+
+> In our example the **Login Name** of the S/4 HANA system is used as unique identifier. Therefore, the choice of attribute in Identity Authentication tenant has to match the one in S/4 HANA system. The configuration in your landscape may differ.
+>
+> ![](images/s4hana-maintain-business-user.png)
+
+Congratulation! You have now established trust between the customer Identity Authentication tenant and its dedicated SAP BTP subaccount.
