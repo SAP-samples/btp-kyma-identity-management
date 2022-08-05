@@ -1,5 +1,7 @@
 # Easy Franchise: Enrich a Kyma-Based Multitenant Application with Additional Identity Features
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-kyma-identity-management)](https://api.reuse.software/info/github.com/SAP-samples/btp-kyma-identity-management)
+
 > Important information: The content of this GitHub repository has been created as a source for the [Enrich a Kyma based multitenant application with new identity features](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/4000/4207/) mission at SAP Discovery Center. So, we recommend you use directly the mission in the SAP Discovery Center for a better experience.
 
 ## Description
