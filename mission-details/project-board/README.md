@@ -1,5 +1,6 @@
 # Project Board
 
+<!-- disco-toc-start -->
 1. DISCOVER
     1. [Become an SAP Partner and Onboard to SAP BTP](../../documentation/discover/become-partner-and-btp-onboard/README.md)
     1. [Learn SAP BTP and SAP BTP, Kyma Runtime](../../documentation/discover/btp-and-kyma/README.md)
@@ -28,3 +29,4 @@
     1. [Share Your Feedback](../../documentation/complete/share-feedback/README.md)
     1. [Explore Our Related Missions](../../documentation/complete/explore-related-missions/README.md)
     1. [Troubleshooting](../../documentation/troubleshooting/README.md)
+    <!-- disco-toc-end -->
