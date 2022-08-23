@@ -1,30 +1,30 @@
 # Project Board
 
 <!-- disco-toc-start -->
-1. DISCOVER
+- DISCOVER
     1. [Become an SAP Partner and Onboard to SAP BTP](../../documentation/discover/become-partner-and-btp-onboard/README.md)
     1. [Learn SAP BTP and SAP BTP, Kyma Runtime](../../documentation/discover/btp-and-kyma/README.md)
     1. [Discover the Easy Franchise Application](../../documentation/discover/easy-franchise/README.md)
     1. [Make Sure the Prerequisites Are Fulfilled](../../documentation/discover/prerequisites/README.md)
     1. [What's New](../../documentation/discover/whats-new/README.md)
-1. PREPARE
+- PREPARE
     1. [Set Up your SAP BTP Environment and Deploy the Easy Franchise Application](../../documentation/prepare/btp-environment-and-app-deployment/README.md)
     1. [Prepare the Customer Subaccount](../../documentation/prepare/prepare-customer-subaccount/README.md)
-1. CONFIGURE THE IDENTITY AUTHENTICATION SERVICE
+- CONFIGURE THE IDENTITY AUTHENTICATION SERVICE
     1. [Get a Tenant of the Identity Authentication Service](../../documentation/configure-ias/get-ias/README.md)
     1. [Set Trust Between Identity Authentication Tenant and a Subaccount in SAP BTP](../../documentation/configure-ias/set-trust-between-ias-and-btp/README.md)
-1. PROPAGATE USER PRINCIPAL
+- PROPAGATE USER PRINCIPAL
     1. [Set Trust Between SAP BTP and SAP S/4HANA Tenant Using Identity Authentication Service](../../documentation/propagate-identity/set-trust-between-btp-and-s4-via-ias/README.md)
     1. [Get Trust Certificate from SAP BTP](../../documentation/propagate-identity/configure-oauth-communication/README.md)
     1. [Configure Communication Settings in SAP S/4HANA Cloud](../../documentation/propagate-identity/configure-s4/README.md)
     1. [Understand the Principal Propagation Authentication Flow](../../documentation/propagate-identity/run-app-with-principal-propagation/README.md)
     1. [Configure Destination in SAP BTP to use Principal Propagation](../../documentation/propagate-identity/configure-destination/README.md)
     1. [Manage End User Access for the EasyFranchise Application](../../documentation/propagate-identity/manage-end-users/README.md)
-1. CONFIGURE A CUSTOM IDENTITY PROVIDER
+- CONFIGURE A CUSTOM IDENTITY PROVIDER
     1. [Prepare Corporate Identity Provider](../../documentation/federate-idp/prepare-corporate-idp/README.md)
     1. [Establish Trust Between Microsoft Azure Active Directory and SAP Identity Authentication Service](../../documentation/federate-idp/establish-trust-between-aad-and-ias/README.md)
     1. [Manage End User Access for the EasyFranchise Application](../../documentation/federate-idp/manage-end-users/README.md)
-1. COMPLETE
+- COMPLETE
     1. [Complete the Mission](../../documentation/complete/complete-mission/README.md)
     1. [Share Your Feedback](../../documentation/complete/share-feedback/README.md)
     1. [Explore Our Related Missions](../../documentation/complete/explore-related-missions/README.md)
