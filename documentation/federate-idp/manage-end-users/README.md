@@ -68,5 +68,14 @@ Now that everything is configured, we can launch the application.  Make sure tha
 
    ![](images/shaddow-user.png)
 
+## Disable the Default Identity Provider
 
- 
+When running the application in the previous step you had to select Identity Provider you want to use. Now we would like to swish of Default Identity Provider.  
+
+1. Open the customer SAP BTP Subaccount (e.g. city-scooter) and navigate to **Security** > **Trust Configuration**. Press **Edit** for the **default identity provider**     
+
+   ![](images/BTP-edit-idp.png)
+2. In the upcoming dialog disable the the user login and **Save**.
+
+   ![](images/disable-userlogin.png)
+3. After clearing the browser cache run the application again and test that the selection of an identity provider is no longer requested.
