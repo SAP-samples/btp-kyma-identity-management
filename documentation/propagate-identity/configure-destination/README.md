@@ -22,7 +22,7 @@ Once OAuth communication settings are configured in S/4HANA Cloud system, we nee
     | Use mTLS for token retrieval | let it unchecked|
     | Client Key | The name of the communication user created previously in the SAP S/4HANA Cloud system, e.g COMM_USER_EASYFRANCHISE_PP |
     | Token Service URL Type | Keep **Dedicated** selected |
-    | Token Service URL | For this field, you need the URL copied from the **Communications Arrangements** application e.g. https://my304263-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token. See below note for more details.|
+    | Token Service URL | For this field, you need the URL copied from the **Communications Arrangements** application e.g. https://my123456-api.s4hana.ondemand.com/sap/bc/sec/oauth2/token. See below note for more details.|
     | Token Service User | The same user as for **Client Key** parameter. |
     | Token Service Password | The password for the communication user. | 
     | nameIdFormat | On the right click **New Property**, and set the value to **urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified**|

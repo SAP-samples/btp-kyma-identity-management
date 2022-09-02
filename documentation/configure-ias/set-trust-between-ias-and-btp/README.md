@@ -66,4 +66,4 @@ For more details, please refer to [Manually Establish Trust and Federation Betwe
 >
 > ![](images/s4hana-maintain-business-user.png)
 
-Congratulation! You have now established trust between the customer Identity Authentication tenant and its dedicated SAP BTP subaccount.
+Congratulations! You have now established trust between the customer Identity Authentication tenant and its dedicated SAP BTP subaccount.
