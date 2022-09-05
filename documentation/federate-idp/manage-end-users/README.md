@@ -77,7 +77,7 @@ By starting the application, you always have to to select first the right identi
 1. Press **Edit** in the **default identity provider** row.
 
    ![](images/BTP-edit-idp.png)
-2. Disable the the user login and **Save**.
+2. Disable the the user login by removing the check on **Available for User Logon** and **Save**.
 
    ![](images/disable-userlogin.png)
 3. Clear your browser cache and run the application again. The step to select the right identity provider should no longer be requested.
