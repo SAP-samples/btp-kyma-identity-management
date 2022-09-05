@@ -12,6 +12,7 @@ Existing SAP partners can request additional partner types via **Manage My Partn
 
 * [Become an SAP Partner](https://www.sap.com/partner/become.html)
 * [SAP Partner Edge Program](https://partneredge.sap.com/content/dam/public/dni/PE_ProgramGuide.pdf)
+* [SAP PartnerEdge – Build](https://www.sap.com/partner/become/partneredge-build.html)
 * [Partner Benefits Catalog](https://partnerbenefitscatalog.sap.com)
 
 ## Onboard to SAP BTP as an SAP Partner
