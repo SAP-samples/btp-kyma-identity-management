@@ -6,7 +6,7 @@ Switching the destination  type to **OAuth2SAMLBearerAssertion** will enables us
 
 When all implementations involved are prepared to handle both destination types, one client can continue to use **BasicAuthentication** while another can be switched to **OAuth2SAMLBearerAssertion**.
 
-For user propagation you need to determine the source of propagated user ID when calling the Destination service. There are three sources that can provide the propagated user ID. Please see [User Propagation via SAML 2.0 Bearer Assertion Flow](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/3cb7b81115c44cf594e0e3631291af94.html) for further details. In our application, we use **Field in the JWT** as source to provide the user information. Furthermore, **nameIdFormat** property is configured in section [Configure Destination in SAP BTP to use Principal Propagation](../configure-destination/README.md), so that the user-name element is used as a user ID.
+For user propagation you need to determine the source of propagated user ID when calling the Destination service. There are three sources that can provide the propagated user ID. Please see [User Propagation via SAML 2.0 Bearer Assertion Flow](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/3cb7b81115c44cf594e0e3631291af94.html) for further details. In our application, we use **Field in the JWT** as source to provide the user information. Furthermore, **nameIdFormat** property is configured in the chapter **Configure Destination in SAP BTP to use Principal Propagation**, so that the user-name element is used as a user ID.
 
 ## Authentication Flow
 In order to provide a proper JWT token based on our application architecture, we used the flow below:
