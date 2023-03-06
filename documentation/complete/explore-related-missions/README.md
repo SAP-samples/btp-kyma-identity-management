@@ -3,7 +3,7 @@
 * [Develop a Multitenant Extension Application in SAP BTP, Kyma Runtime](https://discovery-center.cloud.sap/missiondetail/3683/3726/)  
 This mission explains how to get a quick start on developing multitenant applications running SAP BTP, Kyma runtime. This mission is based on the Easy Franchise application too.
 
-* [Extend a Kyma based multitenant application with day 2 operations](https://discovery-center.cloud.sap/missiondetail/url-to-be-updated)  
+* [Extend a Kyma based multitenant application with day 2 operations](https://discovery-center.cloud.sap/protected/index.html#/missiondetail/3999/4206/)  
 This mission explains how to extend a Kyma based multitenant application with day2 operations topics like metering, observability and CI/CD. This mission is based on the Easy Franchise application too.
 
 * [Getting Started with the SAP BTP, Kyma runtime](https://discovery-center.cloud.sap/missiondetail/3252/3281/)  
