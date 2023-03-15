@@ -7,7 +7,7 @@ To execute all the necessary steps of the tutorial, you will need the following 
 * SAP S/4HANA Cloud system.
 * Global account in SAP Business Technology Platform (SAP BTP)
   * SAP BTP, Kyma runtime enabled
-  * SAP HANA Cloud
+  * SAP HANA Cloud Plan tools
   * Destination service
 
 ## Tools
