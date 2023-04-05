@@ -23,8 +23,5 @@ Before starting with the onboarding of the customer, an SAP partner will typical
 * Details of mentors
 
 Follow these steps:
-* [Create a Consumer Subaccount](https://github.com/SAP-samples/btp-kyma-multitenant-extension/blob/main/documentation/test-customer-onboarding/create-consumer-subaccount/README.md)
 * [Configure a Destination](https://github.com/SAP-samples/btp-kyma-multitenant-extension/blob/main/documentation/test-customer-onboarding/configure-destination/README.md)
-* [Subscribe to the Easy Franchise Application](https://github.com/SAP-samples/btp-kyma-multitenant-extension/blob/main/documentation/test-customer-onboarding/subscribe-easyfranchise-app/README.md)
-* [Manage Users](https://github.com/SAP-samples/btp-kyma-multitenant-extension/blob/main/documentation/test-customer-onboarding/manage-users/README.md)
 * [Run the Application](https://github.com/SAP-samples/btp-kyma-multitenant-extension/blob/main/documentation/test-customer-onboarding/run-application/README.md)
