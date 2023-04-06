@@ -8,7 +8,7 @@ We assume that you have already a corporate identity provider like Microsoft Azu
  
 ## Create an Enterprise Application in the Corporate Identity Provider
 
-When an enterprise application is registered in an Microsoft Azure AD tenant, users who have been assigned to it can securely access it.  For more information, read [What is application management in Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management. In our scenario an administrator of City Scooter has to create an enterprise application in **Azure Active Directory** of type **SAP Cloud Platform Identity Authentication**. 
+When an enterprise application is registered in an Microsoft Azure AD tenant, users who have been assigned to it can securely access it.  For more information, read [What is application management in Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/what-is-application-management). In our scenario an administrator of City Scooter has to create an enterprise application in **Azure Active Directory** of type **SAP Cloud Platform Identity Authentication**. 
 
 > Note: We will explain here the different steps needed to configure a Microsoft AAD. If you are not using the same corporate identity provider, you can still have a look at the step below because the approach should be quite similar.
 
