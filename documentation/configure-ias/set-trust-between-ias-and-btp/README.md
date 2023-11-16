@@ -2,11 +2,14 @@
 For more details, please refer to [Manually Establish Trust and Federation Between UAA and Identity Authentication](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/7c6aa87459764b179aeccadccd4f91f3.html#loio7c6aa87459764b179aeccadccd4f91f3) in the SAP official documentation.
 
 ## Import Identity Authentication Service Metadata in SAP BTP Subaccount
-1. Open your Identity Authentication tenant and navigate to **Applications & Ressources** > **Tenant Settings**. Then select **SAML 2.0 Configuration**.
-![](images/tenant-settings.png) 
+1. Open your Identity Authentication tenant and navigate to **Applications & Ressources** > **Tenant Settings**. 
+![](images/2023-tenant-settings.png) 
+
+1. Then select **SAML 2.0 Configuration**.
+![](images/2023-go-to-saml2.png) 
 
 1. Press **Download Metadata File**.
-![](images/download-metadata.png) 
+![](images/2023-download-metadata.png) 
 
 1. Open the customer SAP BTP Subaccount (e.g. city-scooter) and navigate to **Security** > **Trust Configuration** and click the button **New Trust Configuration**.
 ![](images/new-trust-config.png)
