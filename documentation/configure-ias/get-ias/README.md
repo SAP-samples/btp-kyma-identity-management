@@ -10,39 +10,39 @@ As an SAP partner or customer using SAP BTP, you always have an Identity Authori
 
 1. Choose **Entitlements** >  **Configure Entitlements**.
    
-    ![](images/configure-entitlements.png) 
+    ![](images/2023-configure-entitlements.png) 
 
 1. Then choose **Add Service Plans**.
    
-    ![](images/add-service-plans.png) 
+    ![](images/2023-add-service-plans.png) 
 
-1. Find and select **Cloud Identity Services** in the pop-up dialog. Select the **default plan** checkbox and add it as service plan.
+1. Find and select **Cloud Identity Services** in the pop-up dialog. Select the **standard plan** checkbox and add it as service plan.
     
-    ![](images/add-default-plan.png)
+    ![](images/2023-add-default-plan.png)
 
 1. Save the changes on the **Entitlements** page.
    
-    ![](images/save-entitlement.png) 
+    ![](images/2023-save-entitlement.png) 
 
 1. Choose **Services** > **Service Marketplace** and select the **Cloud Identity Services** tile.
    
-    ![](images/select-ias.png) 
+    ![](images/2023-select-ias.png) 
 
 1. Under **Application Plans** you should see the **default** plan.
 
-    ![](images/default-plan.png) 
+    ![](images/2023-default-plan.png) 
 
 1. Choose the **Actions (...)** button for the default plan and then choose **Create**.
 
-    ![](images/create-instance.png) 
+    ![](images/2023-create-instance.png) 
 
 1. Verify that **default** is selected as plan and choose **Create** to start creating the instance.
 
-    ![](images/create-instance-02.png) 
+    ![](images/2023-create-instance-02.png) 
 
 1. In the upcoming dialog select **View Subscription**.
    
-    ![](images/create-instance-03.png)
+    ![](images/2023-create-instance-03.png)
 
 1. Verify under **Instances and Subscriptions** that the status of **Cloud Identity Services** has been updated to **Subscribed**.
 
