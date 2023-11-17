@@ -2,15 +2,11 @@
 
 1. Open the customer subaccount in SAP BTP cockpit and log on with Administrator permission. To verify that you have the **Subaccount Administrator** role, choose **Security** > **Users** and check the role for your user.
 
-   ![](images/admin-role.png) 
+   ![](images/2023-admin-role.png) 
 
-1. Choose **Connectivity** > **Destinations**.
+1. Under **Connectivity** > **Destinations**, choose **Download Trust** and save the identifying X.509 certificate that identifies this subaccount in your local file system.
 
-   ![](images/cockpit-destinations.png) 
-
-1. Choose **Download Trust** and save the identifying X.509 certificate that identifies this subaccount in your local file system. 
-
-   ![](images/download-trust.png)
+   ![](images/2023-download-trust.png)
 
    The downloaded X.509 certificate will be added in the next step to the target system to which you want to propagate the user.
 
