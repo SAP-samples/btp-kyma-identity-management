@@ -14,7 +14,7 @@ Here is a high-level overview of the multitenant approach:
 
 The SAP partner develops a Kyma-based multitenant application on SAP BTP.
 
-All multitenant microservices of the application will run in the SAP BTP, Kyma runtime. In addition to that, the SAP partner uses an SAP HANA database to persist the data of the application. As SAP HANA is not yet available in Kyma today, the database will be running in the SAP BTP, Cloud Foundry environment.
+All multitenant microservices of the application will run in the SAP BTP, Kyma runtime. In addition to that, the SAP partner uses an SAP HANA database to persist the data of the application. 
 
 To manage customer-specific configuration, the partner creates a dedicated subaccount for each customer. Later on, the system admin of the customer gets access to the subaccount and can maintain the access details to the SAP S/4HANA Cloud tenant and manages the users of the application.
 
