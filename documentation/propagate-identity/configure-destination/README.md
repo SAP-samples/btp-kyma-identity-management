@@ -28,7 +28,7 @@ Once OAuth communication settings are configured in S/4HANA Cloud system, we nee
     | nameIdFormat | On the right click **New Property**, and set the value to **urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified**|
     | Use default JDK truststore | selected it|
 
-    ![](images/destination-settings.png)
+    ![](images/2023-destination-settings.png)
 
 > **NOTE:**  Token Service URL. Open your communication arrangement, click **OAuth2.0 Details** and check your **Token Service URL**.
 ![](images/get-token-service-url.jpg)
