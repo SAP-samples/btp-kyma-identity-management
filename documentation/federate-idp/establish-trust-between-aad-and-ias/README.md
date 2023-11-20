@@ -6,12 +6,16 @@ In this chapter we show case the steps to configure the enterprise application i
 
 ## Download SAML 2.0 Metadata from Identity Authentication Service 
 
-1. Open the **Identity Authentication Service** and expand **Applications & Resources** to select the **Tenant Settings**. On the right side select **SAML 2.0 Configuration**.
+1. Open the **Identity Authentication Service** and choose **Tenant Settings** under **Applications & Resources**.
 
-   ![](images/ias-open-samlconfig.png)
+   ![](images/2023-ias-open-samlconfig-01.png)
+
+1. Then choose **SAML 2.0 Configuration** under **Single Sign-On**.
+
+   ![](images/2023-ias-open-samlconfig-02.png)
 1. Download the metadata file.
 
-   ![](images/ias-download-metadata.png)
+   ![](images/2023-ias-download-metadata.png)
 
 ## Upload SAML 2.0 Metadata to Microsoft AAD Enterprise Application
 
@@ -32,39 +36,33 @@ In this chapter we show case the steps to configure the enterprise application i
 
 ## Enable your Corporate Identity Provider in the Identity Authentication Service
 
-1. Open the Identity Authentication service, expand the **Identity Providers** menu and click **Corporate Identity Providers** . Then click **create**.
+1. Open the Identity Authentication service, expand the **Identity Providers** menu and click **Corporate Identity Providers** .
 
-   ![](images/IAS-create-CIP.png)
-2. In the dialog provide a meaningful name e.g. **City Scooter Microsoft Azure Active Directory** and click **Save**. 
+   ![](images/2023-IAS-create-CIP.png)
+1. Click **create** provide a meaningful name e.g. **City Scooter Microsoft Azure Active Directory** in the dialog. Then click **Save**. 
 
-   ![](images/IAS-save-CIP.png)
+   ![](images/2023-IAS-save-CIP.png)
 
 ## Upload federation Metadata file in the Corporate Identity Provider Configuration of the Identity Authentication Service
 1. Select the new created corporate identity provider and click on **SAML 2.0 Configuration**.
 
-   ![](images/IAS-MAAD-select-saml20.png)
-1. Upload the federation metadata file.
+   ![](images/2023-IAS-MAAD-select-saml20.png)
+1. Upload the federation metadata file  and click **Save**. 
 
-   ![](images/IAS-upload-MAAD-metadata.png)
-1. Check the imported data and click **Save**. 
-
-   ![](images/IAS-save-MAAD-metadata.png)
+   ![](images/2023-IAS-save-MAAD-metadata.png)
 
 ## Update the Provider Type to Microsoft ADFS / Azure AD (SAML 2.0) in the Cooperate Identity Provider Configuration of Identity Authentication Service
-1. Select the **Identity Provider Type**.
+1. Select the **Identity Provider Type** and choose the identity provider type **Microsoft ADFS / Azure AD (SAML 2.0)** and click **Save**.
 
-   ![](images/IAS-MAAD-select-provider-type.png)  
-2. Select the identity provider type **Microsoft ADFS / Azure AD (SAML 2.0)** and click **Save**.
-
-   ![](images/IAS-MAAD-save-provider-type.png)
+   ![](images/2023-IAS-MAAD-save-provider-type.png)
 
 ## Configure Default Identity Provider in the Application of Identity Authentication Service
 
 1. In the Identity Authentication service select your application. Open **Conditional Authentication**.
 
-   ![](images/IAS-open-conditional-authentication.png)   
+   ![](images/2023-IAS-open-conditional-authentication.png)   
 1. Select the correct **Microsoft Azure Active Directory** as default identity provider for your application and click **Save**.
-  ![](images/IAS-update-conditional-authentication.png)   
+  ![](images/2023-IAS-update-conditional-authentication.png)   
 
 ## Update Attributes & Claims Settings in the Enterprise Application of Microsoft Azure
 
