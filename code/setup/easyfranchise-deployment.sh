@@ -327,6 +327,29 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
       && rm -rf kyma-release kyma.tar.gz
 
       kyma alpha enable module btp-operator  --channel regular --kyma-name default --wait
+
+      # Wait for BTP Operator to be ready
+      BTP_OPERATOR_READY=0
+      MAX_RETRIES=30
+      RETRY_INTERVAL=10
+
+      for ((i=1; i<=MAX_RETRIES; i++)); do
+          if kubectl get pods -n kyma-system | grep -q 'btp-operator.*Running'; then
+              BTP_OPERATOR_READY=1
+              break
+          else
+              echo "Waiting for BTP Operator to be ready... retry $i/$MAX_RETRIES"
+              sleep $RETRY_INTERVAL
+          fi
+      done
+
+      if [ $BTP_OPERATOR_READY -eq 0 ]; then
+          echo "BTP Operator is not ready. Exiting..."
+          exit 1
+      else
+          echo "BTP Operator is ready."
+      fi
+
     else 
       log "Skipped for Dry Run"
     fi
