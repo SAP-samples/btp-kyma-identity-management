@@ -1,3 +1,8 @@
+# DEPRECATED
+
+> [!CAUTION]  
+> As of July 2024 the tutorial is discontinued. The content provided is not going to be maintained anymore. 
+
 # Easy Franchise: Enrich a Kyma-Based Multitenant Application with Additional Identity Features
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-kyma-identity-management)](https://api.reuse.software/info/github.com/SAP-samples/btp-kyma-identity-management)
