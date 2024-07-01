@@ -1,3 +1,8 @@
+# DEPRECATED
+
+> [!CAUTION]  
+> As of July 2024 the tutorial is discontinued. The content provided is not going to be maintained anymore. 
+
 # Welcome to the Mission
 
 In this mission, you will learn how to enrich a Kyma based multitenant application with new identity features. It is related to the mission [Develop a Multitenant Extension Application in SAP BTP, Kyma Runtime](https://discovery-center.cloud.sap/missiondetail/3683/3726/) and extends it by focusing on identity topics like identity management via SAP Identity Services, custom identity provider and principal propagation.
